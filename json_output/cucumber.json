@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "API data comparison with excel data",
+        "description": "",
+        "id": "validation-of-employee-data-api-with-excel-data;api-data-comparison-with-excel-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4789682200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is triggering the GET request",
+            "match": {
+              "location": "APItesting_StepDef.user_is_triggering_the_GET_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50034200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Response is received and saved in JSON format",
+            "match": {
+              "location": "APItesting_StepDef.response_is_received_and_saved_in_JSON_format()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1866105200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the employee name and id are matching with excel sheet",
+            "match": {
+              "location": "APItesting_StepDef.validate_the_employee_name_and_id_are_matching_with_excel_sheet()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of employee data API with excel data",
+    "description": "",
+    "id": "validation-of-employee-data-api-with-excel-data",
+    "keyword": "Feature",
+    "uri": "./Features/APITestingWithXL.feature"
+  }
+]
