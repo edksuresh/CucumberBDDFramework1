@@ -26,6 +26,7 @@ public class Registration {
 		pomLogin.uid.sendKeys("sss@gg.com");
 		pomLogin.enter.click();
 		Assert.assertEquals("Automation Demo Site", pomLogin.head1.getText().trim());
+		
 	}
 	
 	
