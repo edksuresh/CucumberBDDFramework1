@@ -5,7 +5,7 @@ import org.testng.annotations.AfterTest;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(features="./Features/APITestingWithXL.feature",
+@CucumberOptions(features="./Features/Registration.feature",
 glue= {"StepDefinition"},
 format= {"pretty","html:test-outout", "json:json_output/cucumber.json"}, 
 monochrome = true)
